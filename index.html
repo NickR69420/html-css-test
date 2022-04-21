@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buttons</title>
+</head>
+
+<body>
+
+
+  <style>
+    .sub {
+      background-color: rgb(200, 0, 0);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 105px;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: opacity 0.3s,
+    }
+
+    .sub:hover {
+      opacity: 0.8;
+    }
+
+    .sub:active {
+      opacity: 0.5;
+    }
+
+    .join {
+      background-color: white;
+      border-color: rgb(41, 195, 255);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 2px;
+      color: rgb(41, 187, 255);
+      height: 36px;
+      width: 63px;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: background-color 0.3s,
+        color 0.3s
+    }
+
+    .join:hover {
+      background-color: #29c3ff;
+      color: white;
+      border: none;
+    }
+
+    .join:active {
+      opacity: 0.5;
+    }
+
+    .tweet {
+      background-color: rgb(29, 161, 242);
+      color: white;
+      font-weight: bold;
+      font-size: 13px;
+      border: none;
+      height: 36px;
+      width: 74px;
+      border-radius: 18px;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: opacity 0.15s;
+    }
+
+    .tweet:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .tweet:active {
+      opacity: 0.5;
+    }
+
+    .link {
+      color: cadetblue;
+      font-family: 'Arial';
+    }
+  </style>
+  <button class="sub">SUBSCRIBE</button>
+
+  <button class="join">JOIN</button>
+
+  <button class="tweet">TWEET</button>
+
+  <p>Check out some videos!</p>
+  <a class="link"  href="/video.html">Video</a>
+</body>
+
+</html>
